@@ -22,15 +22,16 @@ body {
    background: #fff;
    border: 1px solid #999;
    float: left;
-   font-size: 24px;
-   font-weight: bold;
-   line-height: 34px;
+   font-size: 20vh;
+   font-weight: 100;
+   line-height: normal;
    margin-right: -1px;
    margin-top: -1px;
    padding: 0;
    text-align: center;
-   height: 100px;
-   width: 100px;
+   width: 25vh;
+   height: 25vh;
+
  }
  
  .square:focus {
