@@ -34,14 +34,14 @@ export default class Board extends Component {
       const winner = calculateWinner(this.state.squares);
       let status;
       if (winner) {
-        status = 'Победитель: ' + winner;
+        status = 'Winner: ' + winner;
       } else {
-        status = 'Следующий ход: ' + (this.state.xIxNext ? 'X' : 'O');
+        status = 'Next player: ' + (this.state.xIxNext ? 'X' : 'O');
       }
 
      return (
        <div>
-         <div className="status">{status}</div>
+         <h1 className="status">{status}</h1>
          <div className="board-row">
            {this.renderSquare(0)}
            {this.renderSquare(1)}
